@@ -22,6 +22,7 @@ REQUIRED SECTIONS:
 After you're finished please remove all the comments and instructions!
 -->
 
+<!---
 <div align="center">
 
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
@@ -30,6 +31,7 @@ After you're finished please remove all the comments and instructions!
   <h3><b>Microverse README Template</b></h3>
 
 </div>
+-->
 
 <!-- TABLE OF CONTENTS -->
 
@@ -202,17 +204,12 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Jared Atandi**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/jaredatandi)
+- Twitter: [@twitterhandle](https://twitter.com/one_good_man)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/engineerjaredatandi)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -252,9 +249,8 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
 I would like to thank...
+- [Cindy Shin](https://www.behance.net/adagio07) for insipiring the design
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
