@@ -1,41 +1,37 @@
 .mobile-popup-nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-
-    background-color: #272a31;
-    color: #fff;
-
-    height: 100%;
-    width: 100%;
-    padding: 30px;
-    position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #272a31;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+  position: fixed;
 }
 
 .x-icon {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    width: 80%;
-    color: #fff;
-    font-size: 30px;
-    font-weight: 900;
-
-    height: 40px;
-    size: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 80%;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 900;
+  height: 40px;
+  size: 20px;
 }
 
 .mobile-popup-nav ul {
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .mobile-popup-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-
-    font-size: 1.2rem;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
 }
