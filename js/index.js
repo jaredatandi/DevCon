@@ -1,24 +1,21 @@
+// Toggle menu for mobile
 const toggleBtn = document.querySelector('.mobile-popup-nav');
-const bars = document.querySelector('.ham');
+const menu = document.querySelector('.hamburger-menu');
 const xicon = document.querySelector('.close');
 const links = document.querySelectorAll('.nav');
 
-let flag = false;
+menu.addEventListener('click', () => {
+  toggleBtn.classList.toggle('active');
+});
 
-function toggleHam() {
-  if (flag) {
-    bars.style.display = 'none';
-    toggleBtn.style.display = 'flex';
-    flag = false;
-  } else {
-    bars.style.display = 'flex';
-    toggleBtn.style.display = 'none';
-    flag = true;
-  }
-}
-bars.addEventListener('click', toggleHam);
-xicon.addEventListener('click', toggleHam);
+xicon.addEventListener('click', () => {
+  toggleBtn.classList.toggle('active');
+});
 
 Array.from(links).forEach((link) => {
-  link.addEventListener('click', toggleHam);
+  link.addEventListener('click', () => {
+    toggleBtn.classList.toggle('active');
+  });
 });
+
+// Dynamic loading of speakers
