@@ -35,6 +35,10 @@ p {
   background-size: cover;
 }
 
+.active {
+  display: none;
+}
+
 .ham {
   flex-direction: column;
   padding: 1.7rem;

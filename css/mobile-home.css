@@ -35,6 +35,10 @@ p {
   background-size: cover;
 }
 
+.active {
+  display: none;
+}
+
 .hamburger-menu {
   padding: 1.7rem;
 }
