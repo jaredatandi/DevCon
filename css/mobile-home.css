@@ -260,6 +260,28 @@ p {
 
 .footer {
   justify-content: center;
-  padding: 20px;
-  font-size: 15px;
+  gap: 10px;
+  padding: 0.3rem;
+  border: 1px solid #d3d3d3;
+  margin: 10px;
+}
+
+.more {
+  font-size: 0.9rem;
+  color: #272a31;
+  font-weight: 300;
+  justify-content: center;
+  align-items: center;
+}
+
+.more-btn {
+  transform: rotate(-90deg);
+  color: #ec5242;
+  font-size: 2rem;
+  font-weight: 900;
+  font-style: bold;
+}
+
+.display-more {
+  display: none;
 }
