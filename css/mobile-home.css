@@ -281,3 +281,7 @@ p {
   font-weight: 900;
   font-style: bold;
 }
+
+.display-more {
+  display: none;
+}
