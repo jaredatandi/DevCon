@@ -4,14 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Developers Conference Manager</title>
+    <title>About Developers Conference Manager</title>
     <!-- Resources -->
     <!-- CSS -->
     <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/popup.css" />
     <!-- Fonts -->
     <link rel="stylesheet" href="fonts/Lato/Lato-Bold.ttf" />
   </head>
   <body>
+    <div>
+      <div class="mobile-popup-nav" style="display: none">
+        <div class="x-icon"><div class="close">&#x2715;</div></div>
+        <ul>
+          <li class="nav"><a href="./index.html">Home</a></li>
+          <li class="nav"><a href="#">About</a></li>
+          <li class="nav"><a href="#sponsors">Sponsor</a></li>
+        </ul>
+      </div>
+    </div>
     <header class="background">
       <!-- Mobile hamburger menu -->
       <div class="ham dflex">
@@ -103,7 +114,7 @@
           </div>
         </div>
 
-        <section class="sponsors">
+        <section id="sponsors" class="sponsors">
           <h2 class="centered-text">Partners</h2>
           <div class="line"></div>
           <div class="sponsors-logos dflex">
