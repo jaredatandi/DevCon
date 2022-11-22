@@ -4,21 +4,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Developers Conference Manager</title>
+    <title>Developers Conference Manager</title>
     <!-- Resources -->
     <!-- CSS -->
     <link rel="stylesheet" href="css/mobile-home.css" />
+    <link rel="stylesheet" href="css/popup.css" />
     <!-- Fonts -->
     <link rel="stylesheet" href="fonts/Lato/Lato-Bold.ttf" />
   </head>
   <body>
-    <header class="background">
-      <!-- Mobile hamburger menu -->
-      <div class="ham dflex">
-        <div class="bars"></div>
-        <div class="bars"></div>
-        <div class="bars"></div>
+    <div>
+      <div class="mobile-popup-nav" style="display: none">
+        <div class="x-icon"><div class="close">&#x2715;</div></div>
+        <ul>
+          <li class="nav"><a href="#">Home</a></li>
+          <li class="nav"><a href="./about.html">About</a></li>
+          <li class="nav"><a href="#speakers">Speakers</a></li>
+        </ul>
       </div>
+    </div>
+    <header class="background mobile-only">
+      <!-- Mobile hamburger menu -->
+      <div class="hamburger-menu">
+        <div class="ham dflex">
+          <div class="bars"></div>
+          <div class="bars"></div>
+          <div class="bars"></div>
+        </div>
+      </div>
+
       <!-- Desktop header strip -->
       <div class="desktop-only">
         <div>
@@ -122,7 +136,7 @@
         <div class="join">Join global DevCon 2022</div>
       </div>
 
-      <section class="speakers dflex">
+      <section id="speakers" class="speakers dflex">
         <div class="header lato">
           <h2>Featured Speakers</h2>
           <div class="line"></div>
@@ -227,7 +241,7 @@
           <!-- end of speaker 6 -->
         </div>
       </section>
-      <section class="sponsors">
+      <section id="sponsors" class="sponsors">
         <h2 class="centered-text">Partners</h2>
         <div class="line"></div>
         <div class="sponsors-logos dflex">
