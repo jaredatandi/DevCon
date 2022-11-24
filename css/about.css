@@ -393,7 +393,6 @@ p {
   .devslogo {
     margin-top: 40px;
     margin-bottom: 40px;
-    margin: 25px auto 0 auto;
     height: 50%;
   }
 
@@ -401,7 +400,7 @@ p {
     flex-direction: column;
     gap: 5px;
     color: #272a31;
-    padding: 80px 0
+    padding: 80px 0;
   }
 
   .past-images {
@@ -418,19 +417,16 @@ p {
     width: 300px;
   }
 
-
   .past-card1 {
     justify-content: center;
     align-items: center;
     text-align: center;
   }
 
-
   .see-program {
     color: #d3d3d3;
     font-size: 1.2rem;
   }
-
 
   .footer {
     justify-content: center;
