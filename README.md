@@ -59,9 +59,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 DevCon <a name="about-project"></a>
 
-**[DevCon]** is a... An online web developers conference managers. The site can be used to organize, promote and manage developer's conferences
+**DevCon** is a an online web developers conference managers. The site can be used to organize, promote and manage developer's conferences
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -93,9 +93,9 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- **[Past Events Photos]**
-- **[Speakers highlight]**
-- **[Sponsors details]**
+- **Past Events Photos**
+- **Speakers highlight**
+- **Sponsors details**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,8 +114,8 @@ After you're finished please remove all the comments and instructions!
 To get a local copy up and running, follow these steps.
 
 ```sh
-git clone [this repo]
-cd [this repo]
+git clone https://github.com/jaredatandi/DevCon
+cd DevCon
 open index.html
 ```
 
@@ -199,8 +199,6 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Jared Atandi**
 
 - GitHub: [@githubhandle](https://github.com/jaredatandi)
@@ -213,11 +211,9 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **Ticketing page**
+- [ ] **new attendees registration**
+- [ ] **Past conference materials page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -235,9 +231,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project please give it a 5 ⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -245,7 +239,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank...
+I would like to thank
 
 - [Cindy Shin](https://www.behance.net/adagio07) for insipiring the design
 
@@ -257,13 +251,13 @@ I would like to thank...
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Can users register on for attendance?]**
+- **Can users register on for attendance?**
 
-  - [No, at the moment this feature is not supported]
+  - No, at the moment this feature is not supported
 
-- **[Can I create an account on the site]**
+- **Can I create an account on the site**
 
-  - [The site is used by authenticated developers only, you can visit regularly to view updated events]
+  - The site is used by authenticated developers only, you can visit regularly to view updated events
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -272,7 +266,5 @@ I would like to thank...
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
