@@ -61,34 +61,32 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [your_project_name] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+**[DevCon]** is a... An online web developers conference managers. The site can be used to organize, promote and manage developer's conferences 
 
-**[your_project__name]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://html.org/">HTML</a></li>
+    <li><a href="#">CSS</a></li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="#">JavaScript</a></li>
   </ul>
 </details>
 
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="#">Persistent JSON</a></li>
   </ul>
 </details>
 
@@ -96,11 +94,9 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Past Events Photos]**
+- **[Speakers highlight]**
+- **[Sponsors details]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -108,9 +104,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://jaredatandi.github.io/DevCon/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,9 +112,12 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
+```sh
+git clone [this repo]
+cd [this repo]
+open index.html
+```
 
 ### Prerequisites
 
@@ -137,6 +134,10 @@ Example command:
 ### Setup
 
 Clone this repository to your desired folder:
+Then run
+```sh
+open index.html
+```
 
 <!--
 Example commands:
@@ -151,14 +152,10 @@ Example commands:
 
 Install this project with:
 
-<!--
-Example command:
 
 ```sh
-  cd my-project
-  gem install
+curl https://github.com/jaredatandi/DevCon/tree/master
 ```
---->
 
 ### Usage
 
@@ -260,13 +257,13 @@ I would like to thank...
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
+- **[Can users register on for attendance?]**
 
-  - [Answer_1]
+  - [No, at the moment this feature is not supported]
 
-- **[Question_2]**
+- **[Can I create an account on the site]**
 
-  - [Answer_2]
+  - [The site is used by authenticated developers only, you can visit regularly to view updated events]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
