@@ -291,6 +291,10 @@ p {
 }
 
 @media screen and (min-width: 768px) {
+  a {
+    color: #d3d3d3;
+  }
+
   .desktop-only {
     display: flex !important;
   }
@@ -307,7 +311,6 @@ p {
     display: block !important;
     background-color: #272a31;
     padding: 8px 10px 10px 0;
-
     color: #fff;
     font-size: 1rem;
     font-weight: bold;
@@ -417,7 +420,7 @@ p {
     padding: 20px;
   }
 
-  .see-program a {
+  .see-program {
     color: #d3d3d3;
     font-size: 1.2rem;
   }
@@ -452,6 +455,7 @@ p {
   }
 
   .sponsors {
+    flex-direction: column;
     padding: 50px 10px;
     color: #d3d3d3;
     background-color: #272a31;
@@ -485,5 +489,4 @@ p {
     padding: 50px 30px;
     margin: 0;
   }
-
 }
