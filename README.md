@@ -61,8 +61,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [your_project_name] <a name="about-project"></a>
 
-**[DevCon]** is a... An online web developers conference managers. The site can be used to organize, promote and manage developer's conferences 
-
+**[DevCon]** is a... An online web developers conference managers. The site can be used to organize, promote and manage developer's conferences
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -113,6 +112,7 @@ After you're finished please remove all the comments and instructions!
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
+
 ```sh
 git clone [this repo]
 cd [this repo]
@@ -135,6 +135,7 @@ Example command:
 
 Clone this repository to your desired folder:
 Then run
+
 ```sh
 open index.html
 ```
@@ -151,7 +152,6 @@ Example commands:
 ### Install
 
 Install this project with:
-
 
 ```sh
 curl https://github.com/jaredatandi/DevCon/tree/master
@@ -207,7 +207,6 @@ Example:
 - Twitter: [@twitterhandle](https://twitter.com/one_good_man)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/engineerjaredatandi)
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -247,6 +246,7 @@ If you like this project...
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank...
+
 - [Cindy Shin](https://www.behance.net/adagio07) for insipiring the design
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
