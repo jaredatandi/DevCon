@@ -13,7 +13,7 @@ p {
 }
 
 .desktop-only {
-  display: none;
+  display: none !important;
 }
 
 .centered-text {
@@ -29,6 +29,7 @@ p {
 }
 
 .background {
+  width: 100%;
   background-image: url(../images/bg_0.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -140,6 +141,13 @@ p {
   border: 1px solid #d3d3d3;
 }
 
+.past-events {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 40px 30px;
+}
+
 .past-images {
   flex-direction: column;
   gap: 15px;
@@ -200,6 +208,7 @@ p {
   padding: 50px 10px;
   color: #d3d3d3;
   background-color: #272a31;
+  flex-direction: column;
 }
 
 .sponsors h2 {
@@ -223,6 +232,7 @@ p {
 .footer {
   justify-content: center;
   flex-direction: row;
+  align-items: center;
   padding: 20px;
   font-size: 15px;
   gap: 10px;
@@ -237,4 +247,198 @@ p {
 .footer-logo img {
   width: 120px;
   height: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  a {
+    color: #d3d3d3;
+  }
+
+  .desktop-only {
+    display: flex !important;
+  }
+
+  .mobile-only {
+    display: none !important;
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
+
+  .top-head {
+    display: block !important;
+    background-color: #272a31;
+    padding: 8px 10px 10px 0;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .top-head ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    gap: 25px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .top-head ul li a {
+    text-decoration: none;
+  }
+
+  .main-nav {
+    justify-content: space-between;
+    box-shadow: 0 8px 10px #d3d3d3;
+    padding: 0 150px;
+    box-sizing: border-box;
+    align-items: center;
+  }
+
+  .main-nav img {
+    width: 70%;
+    height: 70px;
+  }
+
+  .main-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+  }
+
+  .main-nav ul li a {
+    text-decoration: none;
+    font-weight: 400;
+    opacity: 0.9;
+    font-size: 1.1rem;
+    color: #272a31;
+  }
+
+  .background {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+  }
+
+  .about-hero {
+    padding: 7rem 9rem;
+    gap: 30px;
+  }
+
+  .intro {
+    font-size: 2.4rem;
+  }
+
+  .main-heading h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  .description {
+    border: 1px solid #d3d3d3;
+    padding: 16px 8px;
+    background-color: #fff;
+    width: 80%;
+  }
+
+  .description h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.6rem;
+    color: #272a31;
+    opacity: 0.9;
+  }
+
+  .dates {
+    font-weight: 900;
+    font-size: 2.8rem;
+    opacity: 0.8;
+    margin-top: 20px;
+  }
+
+  .venue {
+    font-size: 1.6rem;
+    font-weight: 400;
+    opacity: 0.5;
+  }
+
+  .about-main {
+    padding: 50px 20px;
+    flex-direction: column;
+    gap: 5px;
+    border-bottom: 1px solid #d3d3d3;
+  }
+
+  .program-title {
+    font-weight: 700;
+  }
+
+  .line {
+    width: 10%;
+    margin: 1rem auto;
+  }
+
+  .program-title p {
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    color: #272a31;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 5rem 0 5rem;
+  }
+
+  .devslogo {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 50%;
+  }
+
+  .past-events {
+    flex-direction: column;
+    gap: 5px;
+    color: #272a31;
+    padding: 80px 0;
+  }
+
+  .past-images {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 70%;
+    margin: 40px auto;
+  }
+
+  .overlay {
+    height: 400px;
+    width: 300px;
+  }
+
+  .past-card1 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .see-program {
+    color: #d3d3d3;
+    font-size: 1.2rem;
+  }
+
+  .footer {
+    justify-content: center;
+    align-items: center;
+    padding: 50px 30px;
+    margin: 0;
+    background-color: #272a31;
+    color: #fff;
+    gap: 50px;
+  }
+
+  .footer-logo img {
+    height: 50px;
+  }
 }

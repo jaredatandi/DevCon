@@ -23,9 +23,9 @@
         </ul>
       </div>
     </div>
-    <header class="background mobile-only">
+    <header>
       <!-- Mobile hamburger menu -->
-      <div class="hamburger-menu">
+      <div class="hamburger-menu mobile-only">
         <div class="ham dflex">
           <div class="bars"></div>
           <div class="bars"></div>
@@ -34,43 +34,49 @@
       </div>
 
       <!-- Desktop header strip -->
-      <div class="desktop-only">
-        <div>
-          <i></i>
-          <i></i>
-        </div>
-        <div>
-          <div>English</div>
-          <div>My Page</div>
-          <div>Logout</div>
-        </div>
+      <div class="desktop-only top-head dflex lato">
+        <ul>
+          <li>
+            <a href="#"> <img src="./images/facebook.png" alt="facebook" /></a>
+          </li>
+          <li>
+            <a href="#"> <img src="./images/twitter.png" alt="facebook" /></a>
+          </li>
+          <li>English</li>
+          <li>My Page</li>
+          <li>Logout</li>
+        </ul>
       </div>
-      <div class="desktop-only">
-        <div><div>Logo</div></div>
+      <div class="desktop-only main-nav dflex">
         <div>
-          <div>About</div>
-          <div>Program</div>
-          <div>Join</div>
-          <div>Sponsor</div>
-          <div>News</div>
+          <a href="./index.html"
+            ><img src="./images/devlogo.png" alt="logo"
+          /></a>
         </div>
-        <div>Upcoming Events</div>
+        <ul class="lato">
+          <li><a href="#sponsors">Sponsors</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="#speakers">Speakers</a></li>
+        </ul>
       </div>
-      <div class="hero dflex">
-        <div class="lato intro">"Hello! Dev World"</div>
-        <div class="main-heading title lato">
-          <h1>WORLD DEVS GLOBAL CONFERENCE 2022</h1>
-        </div>
-        <div class="description">
-          <h3 class="lato">
-            A joyful celebration in the value of openess and sharing, creating a
-            positive change with people over 100 countries is taking place in
-            December, in Kenya.
-          </h3>
-        </div>
-        <div class="lato dates">2022.12.15(THU) ~ 16(FRI)</div>
-        <div class="lato venue">
-          <span>&#64;</span> National Devs Campus, Nairobi
+
+      <div class="background">
+        <div class="hero dflex">
+          <div class="lato intro">"Hello! Dev World"</div>
+          <div class="main-heading title lato">
+            <h1>WORLD DEVS GLOBAL CONFERENCE 2022</h1>
+          </div>
+          <div class="description">
+            <h3 class="lato">
+              A joyful celebration in the value of openess and sharing, creating
+              a positive change with people over 100 countries is taking place
+              in December, in Kenya.
+            </h3>
+          </div>
+          <div class="lato dates">2022.12.15(THU) ~ 16(FRI)</div>
+          <div class="lato venue">
+            <span>&#64;</span> National Devs Campus, Nairobi
+          </div>
         </div>
       </div>
     </header>
@@ -83,65 +89,87 @@
         </div>
         <!-- Program cards -->
         <!-- card 1 -->
-        <div class="program dflex">
-          <div class="card-content dflex">
-            <img src="./images/conference-icon.png" alt="conference-icon" />
-            <h3 class="prg-title prg-1">Lecture</h3>
-            <p>
-              Listen to the speakers from various countries about the messages
-              of sharing and opening.
-            </p>
-          </div>
-          <!-- card 2 -->
-          <div class="card-content dflex">
-            <img src="./images/schedule-icon.png" alt="conference-icon" />
-            <h3 class="prg-title prg-1">Projects</h3>
-            <p>
-              Listen to the speakers from various countries about the messages
-              of sharing and opening.
-            </p>
-          </div>
-          <!-- card 3 -->
-          <div class="card-content dflex">
-            <img src="./images/chat-icon.png" alt="conference-icon" />
-            <h3 class="prg-title prg-1">Forum</h3>
-            <p>
-              Listen to the speakers from various countries about the messages
-              of sharing and opening.
-            </p>
-          </div>
-          <!-- card 4 -->
-          <div class="card-content dflex">
-            <img src="./images/main-event-icon.png" alt="conference-icon" />
-            <h3 class="prg-title prg-1">Workshop</h3>
-            <p>
-              Listen to the speakers from various countries about the messages
-              of sharing and opening.
-            </p>
-          </div>
-          <!-- card 5 -->
+        <div class="program">
+          <div class="program dflex">
+            <div class="card-content dflex">
+              <img src="./images/conference-icon.png" alt="conference-icon" />
+              <h3 class="prg-title prg-1">Lecture</h3>
+              <p>
+                Listen to the speakers from various countries about the messages
+                of sharing and opening.
+              </p>
+            </div>
+            <!-- card 2 -->
+            <div class="card-content dflex">
+              <img src="./images/schedule-icon.png" alt="conference-icon" />
+              <h3 class="prg-title prg-1">Projects</h3>
+              <p>
+                Listen to the speakers from various countries about the messages
+                of sharing and opening.
+              </p>
+            </div>
+            <!-- card 3 -->
+            <div class="card-content dflex">
+              <img src="./images/chat-icon.png" alt="conference-icon" />
+              <h3 class="prg-title prg-1">Forum</h3>
+              <p>
+                Listen to the speakers from various countries about the messages
+                of sharing and opening.
+              </p>
+            </div>
+            <!-- card 4 -->
+            <div class="card-content dflex">
+              <img src="./images/main-event-icon.png" alt="conference-icon" />
+              <h3 class="prg-title prg-1">Workshop</h3>
+              <p>
+                Listen to the speakers from various countries about the messages
+                of sharing and opening.
+              </p>
+            </div>
+            <!-- card 5 -->
 
-          <div class="card-content dflex">
-            <img src="./images/ignite-icon.png" alt="conference-icon" />
-            <h3 class="prg-title prg-1">Network</h3>
-            <p>
-              Listen to the speakers from various countries about the messages
-              of sharing and opening.
-            </p>
-          </div>
-          <div class="desktop-only">
-            <a href="#">SEE THE WHOLE PROGRAM</a>
+            <div class="card-content dflex">
+              <img src="./images/ignite-icon.png" alt="conference-icon" />
+              <h3 class="prg-title prg-1">Network</h3>
+              <p>
+                Listen to the speakers from various countries about the messages
+                of sharing and opening.
+              </p>
+            </div>
           </div>
         </div>
-        <div class="join">Join global DevCon 2022</div>
+        <div class="desktop-only see-program">
+          <a href="#">SEE THE WHOLE PROGRAM</a>
+        </div>
+        <div class="join mobile-only">Join global DevCon 2022</div>
       </div>
-      <div class="speakers-section"></div>
+      <!-- Speakers section -->
+      <section class="speakers-section"></section>
     </main>
-    <!-- Footer -->
-    <footer class="footer dflex">
+    <section id="sponsors" class="sponsors desktop-only dflex">
+      <h2 class="centered-text">Partners</h2>
+      <div class="line line2"></div>
+      <div class="sponsors-logos dflex">
+        <img src="./images/mozilla.png" alt="mozilla" />
+        <img src="./images/Google.png" alt="Google" />
+        <img src="./images/navar.png" alt="navar" />
+        <img src="./images/daumkakao.svg" alt="daumkakao" />
+        <img src="./images/airbnb.png" alt="airbnb" />
+      </div>
+    </section>
+    <!-- Desktop Footer -->
+    <footer class="footer dflex desktop-only">
+      <div class="footer-logo">
+        <img src="./images/devlogo.png" alt="logo" />
+      </div>
+      <h3>&#169; 2022 DevCon, some rights reserved</h3>
+      <div class="pattern"></div>
+    </footer>
+    <!-- Mobile Footer -->
+    <div class="footer mobile-only dflex">
       <h3 class="more dflex">MORE</h3>
       <div class="more-btn dflex">&#8249;</div>
-    </footer>
+    </div>
     <!-- End of footer -->
   </body>
   <script async src="js/index.js"></script>

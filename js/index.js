@@ -38,6 +38,38 @@ const speakers = {
       description:
         'Has been into Angular for the past years and loves to share his knowledge about Angular through conferences.',
     },
+    {
+      id: 2,
+      img: './images/speaker_02.png',
+      name: 'Rachel Maria',
+      career: 'Google Developer Expert',
+      description:
+        'Has been into Angular for the past years and loves to share his knowledge about Angular through conferences.',
+    },
+    {
+      id: 2,
+      img: './images/speaker_04.png',
+      name: 'Rachel Maria',
+      career: 'Google Developer Expert',
+      description:
+        'Has been into Angular for the past years and loves to share his knowledge about Angular through conferences.',
+    },
+    {
+      id: 2,
+      img: './images/speaker_05.png',
+      name: 'Rachel Maria',
+      career: 'Google Developer Expert',
+      description:
+        'Has been into Angular for the past years and loves to share his knowledge about Angular through conferences.',
+    },
+    {
+      id: 2,
+      img: './images/speaker_06.png',
+      name: 'Rachel Maria',
+      career: 'Google Developer Expert',
+      description:
+        'Has been into Angular for the past years and loves to share his knowledge about Angular through conferences.',
+    },
   ],
 };
 
